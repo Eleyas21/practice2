@@ -10,4 +10,26 @@ height: 647px;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+color: whitesmoke;
+}
+
+.col-6{
+  width: 50%;
+  float: left;
+}
+
+.header span{
+  color: #e9c46a ;
+}
+.header .menu ul{
+  width: 100%;
+  float: left;
+}
+.header .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.headtext{
+  margin: 30px;
+  padding: 100px;
 }

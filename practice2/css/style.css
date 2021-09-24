@@ -30,6 +30,27 @@ color: whitesmoke;
   display: inline-block;
 }
 .headtext{
-  margin: 30px;
-  padding: 100px;
+   padding: 100px;
+}
+
+.program .row{
+  width: 100%;
+}
+.program .row h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+.program .row h1 span{
+  color: #e9c46a ;
+}
+.program .row p{
+  text-align: center;
+ }
+ .program .menu ul{
+  width: 100%;
+  float: left;
+}
+.program .menu li{
+  list-style: none;
+ 
 }

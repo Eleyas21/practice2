@@ -48,9 +48,19 @@ color: whitesmoke;
  }
  .program .menu ul{
   width: 100%;
-  float: left;
+ 
 }
 .program .menu li{
   list-style: none;
- 
+ }
+ .program .menu li .icon img{
+   height: 50px;
+   width: 50px;
+   float: left;
+ }
+ .program .menu li p{
+  text-align: left;
+}
+.program .menu li h1{
+  text-align: left;
 }

@@ -293,7 +293,29 @@ td, th{
   
 }
 .loc .col-6{
- 
-  text-align: center;
-  
+ text-align: center;
 }
+.form-control12{
+  padding: 0 90px;
+}
+
+.footer-section {
+width: 100%;
+float: left;
+padding: 20px 0px;
+background: #e9c46a;
+text-align: center; }
+
+.footer-section p a{
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+  .footer-section p a:hover{
+  color: black;
+  font-weight: 800;
+  letter-spacing: 4px;
+  transition: 1s;
+  }

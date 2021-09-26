@@ -1,6 +1,7 @@
 *{
   margin: 0;  
   padding: 0;
+  font-family: montserrat,sans-serif;
 }
 
 
@@ -84,6 +85,11 @@ button{
   background-color:#e9c46a ;
   text-transform: uppercase;
 }
+button:hover{
+  background-color: black;
+  transition: 1s;
+  color: bisque;
+}
 
 .program .prtext{
   margin-top: 27px;
@@ -117,7 +123,7 @@ button{
   list-style: none;
   margin: 15px 10px;
   padding: 5px;
-  box-shadow: 5px 5px 9px 0px #888888;
+  box-shadow: 5px 4px 5px 1px #888888;
  }
  .program .menu li:hover{
    background-color:#e9c46a ;
@@ -151,21 +157,23 @@ button{
 }
 
 
-.container .centered h1{
+.bodypart .centered h1{
   margin-top: 45px;
   font-size: 50px;
   padding: 50px 0;
+  color: black;
   
 }
 
-.container {
+.bodypart{
   background-image: url(../images/body1.jpg);
   text-align: center;
-  color: white;
   height: 625px;
-  padding: 100px;
+  margin: 100px 0;
+  padding: 50px 0;
   text-align: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 .centered span{
   color: #e9c46a ;
@@ -177,15 +185,27 @@ button{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 70px 0;
+  }
+.classpart .class-text h1{
+  text-align: center;
+  text-transform: uppercase;
+  }
+.classpart .class-text p{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+ }
+
+.classpart .class-text span{
+  color: #e9c46a;
 }
 .classpart li img{
   float: left;
 }
 .classpart .menu li{
   list-style: none;
-  margin: 15px 10px;
-  padding: 15px 30px;
+  margin: 15px 20px;
+  padding: 35px 30px;
   box-shadow: 5px 5px 9px 0px #888888;;
  }
  .classpart .menu li:hover{
@@ -218,12 +238,8 @@ padding-left: 10px;
   background-repeat: no-repeat;
   background-size: cover ;
   color: whitesmoke;
- 
-}
-.routine h1, p{
-  padding: 30px;
-}
-
+  margin-top: 55px;
+ }
 .routine h2{
   font-size: 25px;
   text-transform: capitalize;
@@ -243,13 +259,41 @@ td, th{
 .skilled{
   text-align: center;
 }
-
-.skilled .col-3{
+.skilled .row .col-3{
   width: 25%;
-  margin: 0 15px;
-  padding: 0 20px;
+  height: 400px;
+  margin: 35px;
+  padding: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 .skilled span{
   color: #e9c46a;
+}
+
+.skil h1{
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+.loc{
+  line-height: 30px;
+}
+
+ .social-menu a {
+  color: #000;
+  font-size: 24px;
+  padding: 5px 10px;
+  display: inline-block;
+  margin: 8px 0;
+}
+
+.loc .col-6 img{
+  margin: 10px;
+  
+}
+.loc .col-6{
+ 
+  text-align: center;
+  
 }
